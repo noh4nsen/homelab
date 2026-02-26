@@ -4,6 +4,10 @@ terraform {
       source  = "terraform-lxd/lxd"
       version = "2.6.2"
     }
+    local = {
+      source  = "hashicorp/local"
+      version = "2.7.0"
+    }
   }
 }
 
